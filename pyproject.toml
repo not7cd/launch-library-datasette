@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "launch-library-datasette"
+version = "0.1.0"
+description = "Dump of database from launchlibrary.net"
+authors = ["Norbert Szulc <norbert@not7cd.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python-launch-library = "^1.0.4"
+glom = "^20.5.0"
+datasette = "^0.45"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^5.3.4"
+csvs-to-sqlite = "^1.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
