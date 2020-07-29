@@ -9,6 +9,9 @@ python = "^3.8"
 python-launch-library = "^1.0.4"
 glom = "^20.5.0"
 datasette = "^0.45"
+sqlite-utils = "^2.12"
+python-dateutil = "^2.8.1"
+datasette-cluster-map = "^0.10"
 
 [tool.poetry.dev-dependencies]
 ipykernel = "^5.3.4"
